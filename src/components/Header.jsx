@@ -20,37 +20,37 @@ export default function Header() {
             
            
             <ul className='hidden md:flex text-white gap-10 '>
-                <li>
+                <li className='cursor-pointer'>
                     Home
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                     Company
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                     Resources
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                     About
                 </li>
-                <li>
+                <li className='cursor-pointer'>
                     Contact
                 </li>
             </ul>
         {/* responsive menu */}
         <ul className={` duration-300 md:hidden w-full h-screen text-white fixed bg-black top-[92px] ${toggle? 'left-[0]' : 'left-[-100%]'}`}>
-                <li className='p-5'>
+                <li className='p-5 cursor-pointer'>
                     Home
                 </li>
-                <li className='p-5'>
+                <li className='p-5 cursor-pointer'>
                     Company
                 </li>
-                <li className='p-5'>
+                <li className='p-5 cursor-pointer'>
                     Resources
                 </li>
-                <li className='p-5'>
+                <li className='p-5 cursor-pointer'>
                     About
                 </li>
-                <li className='p-5'>
+                <li className='p-5 cursor-pointer'>
                     Contact
                 </li>
             </ul>
